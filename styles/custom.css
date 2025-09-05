@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+:root {
+  --cor-1: #FFFF00;
+  --cor-2: #FFD933;
+  --cor-3: #FFB433;
+  --cor-redes: #ff7e53;
+  --cor-hover: #5280ff;
+  --cor-4: #0054DB;
+  --cor-5: #80C6FF;
+  --cor-6: #001BA5;
+  --cor-7: #FF8432;
+  --cor-8: #FFF1C9;
+  --cor-9: #FFFFB0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+  font-family: arial, helvetica, sans-serif;
+}
+h1, h2, h3, p, span {
+  padding: 10px;
+}
+p {
+  justify-content: justify;
+  line-height: 1.6em;
+}
+body {
+  background-color: whitesmoke;
+}
+header {
+  height: 100px;
+  background-color: var(--cor-3);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 5px 7px #00000033;
+}
+header > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navtop {
+  display: none;
+}
+nav li {
+  padding: 5px;
+  width: 79.5px;
+  background-color: whitesmoke;
+  border-bottom: 2px solid lightgray;
+  border-left: 2px solid lightgray;
+  border-right: 2px solid lightgray;
+  border-top: 2px solid lightgray;
+  color: gray;
+  display: inline-block;
+  border-radius: 10px;
+}
+nav li:hover {
+  background-color: var(--cor-hover);
+  border: 1px solid var(--cor-hover);
+  color: whitesmoke;
+  transition-duration: .2s;
+}
+main {
+  padding: 0;
+  margin: 20px auto 20px auto;
+  border-radius: 20px;
+}
+main h1 {
+  font: normal bolder 2.8em arial, helvetica,
+  sans-serif;
+  margin: 20px 20px 20px 10px;
+}
+main h2 {
+  font: normal bolder 2.3em arial, helvetica,
+  sans-serif;
+  margin: 20px 10px 20px 10px;
+}
+main p {
+  margin: 20px;
+}
+main a {
+  text-decoration: none;
+  color: var(--cor-4);
+  font: italic normal 16px arial, helvetica, sans-serif;
+}
+.menu {
+  padding: -30px -20px 0 0;
+  color: gray;
+  font: normal normal .9em arial, helvetica, sans-serif;
+}
+.menu a {
+  color: var(--cor-4);
+  text-decoration: underline;
+  font-weight: normal;
+}
+main img {
+  box-shadow: 0px 5px 10px #00000053;
+}
+div#credits {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #707070;
+  border-radius: 10px;
+}
+#credits h1 {
+  color: var(--cor-redes);
+  margin: 0;
+  padding: 5px 0 0 0;
+  display: inline;
+  font: normal lighter 2em arial, helvetica, sans-serif;
+}
+#created-by {
+  color: black;
+  font: normal normal 2.4em arial, helvetica, sans-serif;
+}
+#credits img {
+  margin: 0 0 -20px 15px;
+  border-radius: 50%;
+  box-shadow: none;
+}
+aside {
+  padding: 20px 0 20px 0;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+aside div {
+  box-shadow: 0px 5px 10px #0000002e;
+  color: black;
+  padding: 2px;
+  margin: auto;
+  border-radius: 7px;
+}
+aside div h1 {
+  padding: 15px 5px 5px 5px;
+}
+#titletop {
+  padding: 20px;
+}
+aside img {
+  padding: 1px;
+  margin: auto;
+  border-radius: 10px;
+}
+aside img:hover {
+  backdrop-filter: saturation(50px);
+  transition-duration: .2s;
+}
+footer {
+  background-color: var(--cor-2);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: normal;
+  height: 9.5vh;
+}
+div#redes {
+  background-color: var(--cor-3);
+  color: white;
+  padding: 10px 40px 10px 30px;
+  list-style-type: none;
+  line-height: 3.5em;
+}
+#redes li {
+  display: flex, inline;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 12px;
+}
+#redes li img {
+  margin: 0 10px -5px 0;
+}
+div#redes h1 {
+  text-align: center;
+}
+hr {
+  border: 1px solid white;
+  margin: 0 0 10px 0;
+}
+/* Botoes flutuantes */
+
+#button-up {
+  position: fixed;
+  top: 90%;
+  left: 85%;
+  background-color: var(--cor-4);
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 10px;
+}
+#button-up:hover {
+  background-color: gray;
+  color: rgb(193,193,193);
+  transition-duration: .2s;
+}
+
+/* Circulos Abaixo da Imagem */
+#c1 {
+  width: 15px;
+  height: 15px;
+  background-color: lightblue;
+  border-radius: 50%;
+  float: right;
+  margin: 5px 10px 5px 5px;
+}
+#c2 {
+  width: 15px;
+  height: 15px;
+  background-color: #FFCCCB;
+  border-radius: 50%;
+  float: right;
+  margin: 5px;
+}
+#c3 {
+  width: 15px;
+  height: 15px;
+  background-color: #F1EB9C;
+  border-radius: 50%;
+  float: right;
+  margin: 5px;
+}
