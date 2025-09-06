@@ -39,7 +39,7 @@
   }
   aside {
     display: block;
-    margin: 0 0 0px 0;
+    margin: 0;
     width: 100%;
   }
 }
@@ -52,10 +52,13 @@
 @media screen and (min-width: 768px) {
   #navtop {
     display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   #navtop li {
     margin: 20px 0 0 0;
-    border: 1px solid var(--cor-4);
+    border: 1px solid var(--cor-5);
     background-color: var(--cor-5);
     color: white;
   }
@@ -69,5 +72,51 @@
   aside {
     display: grid;
     grid-template-columns: 1fr(repeat 2);
+  }
+}
+@media screen and (min-width: 800px) {
+  aside div {
+    height: 25vh;
+  }
+  aside img {
+    height: 15vh;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main #landscape-blue {
+    height: 70vh;
+  }
+  aside div {
+    height: 70vh;
+  }
+}
+@media screen and (minx-width: 1380px) {
+  aside {
+    margin:1 0;
+  }
+  aside div {
+    height: 50vh;
+  }
+  aside img {
+    height: 20vh;
+  }
+}
+@media (orientation: landscape) {
+  aside {
+    height: 120vh;
+    margin: 0 0 150px 0;
+  }
+  aside div {
+    margin: auto;
+    width: 90%;
+    height: 60vh;
+    margin: 10px auto 10px auto;
+  }
+  aside img {
+    height: 42vh;
+  }
+  footer {
+    padding: 25px 0 0 0;
+    height: 100px;
   }
 }

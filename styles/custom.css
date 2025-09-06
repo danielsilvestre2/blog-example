@@ -153,29 +153,43 @@ aside img:hover {
   transition-duration: .2s;
 }
 footer {
+  height: 100px;
   background-color: var(--cor-2);
   color: white;
-  padding: 20px;
   text-align: center;
   font-weight: normal;
-  height: 9.5vh;
+  height: 10vh;
+  padding: 20px;
+}
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 div#redes {
+  width: 100%;
   background-color: var(--cor-3);
   color: white;
   padding: 10px 40px 10px 30px;
   list-style-type: none;
   line-height: 3.5em;
 }
-#redes li {
-  display: flex, inline;
-  align-items: center;
+#redes ul {
+  display: flex;
   justify-content: center;
+  align-items: center;
+}
+#redes li {
+  display: inline;
   list-style-type: none;
   padding: 12px;
 }
 #redes li img {
   margin: 0 10px -5px 0;
+}
+#redes img:hover {
+  filter: brightness(-100%);
+  transition-duration: .4s;
 }
 div#redes h1 {
   text-align: center;
