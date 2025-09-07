@@ -96,9 +96,6 @@
     height: 70vh;
   }
 }
-@media screen and (min-width: 1280px) {
-  
-}
 @media screen and (min-width: 1920px) {
   aside {
     display: grid;

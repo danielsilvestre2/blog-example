@@ -114,10 +114,12 @@ div#credits {
   padding: 5px 0 0 0;
   display: inline;
   font: normal lighter 2em arial, helvetica, sans-serif;
+  text-decoration: underline;
+  text-decoration-thickness: .4px;
 }
 #created-by {
   color: black;
-  font: normal normal 2.4em arial, helvetica, sans-serif;
+  font: normal normal 1.8em arial, helvetica, sans-serif;
 }
 #credits img {
   margin: 0 0 -20px 15px;
@@ -199,7 +201,6 @@ hr {
   margin: 0 0 10px 0;
 }
 /* Botoes flutuantes */
-
 #button-up {
   position: fixed;
   top: 90%;
@@ -216,7 +217,6 @@ hr {
   color: rgb(193,193,193);
   transition-duration: .2s;
 }
-
 /* Circulos Abaixo da Imagem */
 #c1 {
   width: 15px;
