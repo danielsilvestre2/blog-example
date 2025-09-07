@@ -60,11 +60,12 @@
   }
   #navtop li {
     margin: 20px 0 0 0;
-    border: 1px solid var(--cor-5);
-    background-color: var(--cor-5);
-    color: white;
+    border: 1px solid gray;
+    background-color: transparent;
+    color: gray;
   }
   #navtop li:hover {
+    color: white;
     background-color: var(--cor-hover);
     border: 1px solid var(--cor-hover);
   }
@@ -98,7 +99,7 @@
 @media screen and (min-width: 1280px) {
   
 }
-@media screen and (min-width: 1990px) {
+@media screen and (min-width: 1920px) {
   aside {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -132,7 +133,7 @@
 }
 @media screen and (min-height: 1366px) {
   #landscape-blue {
-    height: ;
+    max-height: 40vh;
   }
   aside div {
     height: 25vh;
