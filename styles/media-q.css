@@ -44,6 +44,8 @@
   }
 }
 @media screen and (min-width: 480px) {
+  aside div {
+  }
   aside img {
     width: 90%;
     height: 25vh;
@@ -81,6 +83,9 @@
   aside img {
     height: 15vh;
   }
+  footer {
+    height: 7vh;
+  }
 }
 @media screen and (min-width: 1024px) {
   main #landscape-blue {
@@ -90,12 +95,17 @@
     height: 70vh;
   }
 }
-@media screen and (minx-width: 1380px) {
+@media screen and (min-width: 1280px) {
+  
+}
+@media screen and (min-width: 1990px) {
   aside {
-    margin:1 0;
-  }
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-height: 700px;
+}
   aside div {
-    height: 50vh;
+    height: 40vh;
   }
   aside img {
     height: 20vh;
@@ -118,5 +128,13 @@
   footer {
     padding: 25px 0 0 0;
     height: 100px;
+  }
+}
+@media screen and (min-height: 1366px) {
+  #landscape-blue {
+    height: ;
+  }
+  aside div {
+    height: 25vh;
   }
 }
