@@ -26,29 +26,44 @@
   }
   aside div {
     margin: auto;
-    width: 90%;
-    height: 40vh;
+    width: 50%;
+    height: 20vh;
     margin: 10px auto 10px auto;
   }
   aside img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 20vh;
+    margin: 10px;
+    width: 70%;
+    height: 10vh;
   }
   aside {
     display: block;
     margin: 0;
     width: 100%;
   }
+  #credits-site h1 {
+    margin: 0 0 0 45%;
+    max-width: 414px;
+  }
+}
+@media screen and (min-width: 414px) {
+  #credits-site h1 {
+    margin: -20px 0 0 0;
+    max-width: 414px;
+  }
+  #credits-site {
+    max-width: 400px;
+  }
+  img#profile {
+    margin: 0px 0 -10px 0;
+  }
 }
 @media screen and (min-width: 480px) {
-  aside div {
+  .div-a {
+    height: 31vh;
   }
   aside img {
-    width: 90%;
-    height: 25vh;
+    width: 30%;
+    height: 30vh;
   }
 }
 @media screen and (min-width: 768px) {
@@ -73,11 +88,16 @@
     display: none;
   }
   aside {
-    display: grid;
-    grid-template-columns: 1fr(repeat 2);
+    display: block;
   }
 }
 @media screen and (min-width: 800px) {
+  main {
+    margin: 0 450px 0 450px;
+  }
+  aside {
+    display: block;
+  }
   aside div {
     height: 25vh;
   }
@@ -89,43 +109,14 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  main {
+    margin: 0 250px 0 250px;
+  }
   main #landscape-blue {
     height: 70vh;
   }
   aside div {
-    height: 70vh;
-  }
-}
-@media screen and (min-width: 1920px) {
-  aside {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-height: 700px;
-}
-  aside div {
-    height: 40vh;
-  }
-  aside img {
-    height: 20vh;
-  }
-}
-@media (orientation: landscape) {
-  aside {
-    height: 120vh;
-    margin: 0 0 150px 0;
-  }
-  aside div {
-    margin: auto;
-    width: 90%;
-    height: 60vh;
-    margin: 10px auto 10px auto;
-  }
-  aside img {
-    height: 42vh;
-  }
-  footer {
-    padding: 25px 0 0 0;
-    height: 100px;
+    height: 30vh;
   }
 }
 @media screen and (min-height: 1366px) {
@@ -134,5 +125,19 @@
   }
   aside div {
     height: 25vh;
+  }
+}
+@media screen and (min-width: 1920px) {
+  aside {
+    display: block;
+    max-height: 700px;
+}
+  aside div {
+    max-width: 80vh;
+    height: 52vh;
+  }
+  aside img {
+    max-width: 55vh;
+    height: 40vh;
   }
 }
