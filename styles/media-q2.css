@@ -67,16 +67,8 @@
   }
 }
 @media screen and (min-width: 800px) {
-  .div-a {
-    height: 13.8em;
-  }
   .div-a img {
     height: 6em;
     width: 6.5em;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .div-a {
-    height: ;
   }
 }

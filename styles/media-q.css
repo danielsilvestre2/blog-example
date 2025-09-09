@@ -70,6 +70,9 @@
   }
 }
 @media screen and (min-width: 768px) {
+  #search-bt {
+    display: none;
+  }
   #navtop {
     display: flex;
     align-items: center;
@@ -153,12 +156,15 @@
     height: 23vh;
   }
 }
-@media screen and (min-width: 1920px) (max-width:
+@media screen and (min-width: 1910px) (max-width:
 1980px) {
    #credits-site h1 {
     margin: 0 220px 0 0;
   }
   aside {
     display: block;
+  }
+  .div-a {
+    height: 28vh;
   }
 }
