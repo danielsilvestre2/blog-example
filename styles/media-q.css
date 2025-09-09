@@ -52,10 +52,9 @@
 @media screen and (min-width: 414px) {
   #credits-site h1 {
     margin: -20px 0 0 0;
-    max-width: 414px;
   }
   #credits-site {
-    max-width: 400px;
+    max-width: 27em;
   }
   img#profile {
     margin: 0px 0 -10px 0;
@@ -154,7 +153,11 @@
     height: 23vh;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1920px) (max-width:
+1980px) {
+   #credits-site h1 {
+    margin: 0 220px 0 0;
+  }
   aside {
     display: block;
   }

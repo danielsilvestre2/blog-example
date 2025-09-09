@@ -6,6 +6,3 @@ function clickMenu() {
   navtop.style.display = 'block'
 }
 }
-function openSearch() {
-  if ()
-}
