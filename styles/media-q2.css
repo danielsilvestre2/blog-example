@@ -49,3 +49,8 @@
     width: 90px;
   }
 }
+@media screen and (min-width: 800px) {
+  .div-a {
+    height: 220px;
+  }
+}
