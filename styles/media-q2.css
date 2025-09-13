@@ -68,6 +68,9 @@
   }
 }
 @media screen and (min-width: 800px) {
+  .div-a {
+    height: 14em;
+  }
   .div-a img {
     height: 6em;
     width: 6.5em;
